@@ -73,7 +73,7 @@ test.login(username, password).then((result) => {
 });
 ```
 
-## if you miss something or didn't work you can clone the module and run it as a example
+## If you miss something or didn't work, then you can clone it from github and run the test
 
 
 ## Built With
