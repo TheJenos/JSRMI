@@ -4,6 +4,8 @@ JavaScript Remote method interface helps to communicate between Server side JS(N
 ## Basic idea
 JSRMI can allows an object to invoke methods on an object that running on server side without worring about routings and other stuffs. Currently it can handle parameters and errors on this stage
 
+![Diagram](https://i.ibb.co/yYrnts1/Untitled-Diagram.png)
+
 ### Prerequisites
 JSRMI base with express js and body-parser
 ```
