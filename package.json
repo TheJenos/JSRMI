@@ -1,29 +1,57 @@
 {
-  "name": "jsrmi",
-  "version": "1.0.0",
+  "_from": "jsrmi",
+  "_id": "jsrmi@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-MsxKlR8mbPM+6pz8mIUeCP5dfYA/fzaxToD/WpGE7kC4nBf5maZ5nQQcauXJ0LJPzX/D4tQysppEib6ns2qLOQ==",
+  "_location": "/jsrmi",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "jsrmi",
+    "name": "jsrmi",
+    "escapedName": "jsrmi",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jsrmi/-/jsrmi-1.0.2.tgz",
+  "_shasum": "f1db3cd2ca6a2c68a26be40628448d326019349b",
+  "_spec": "jsrmi",
+  "_where": "/home/thejenos/Node projects/JSRMI_Example1",
+  "author": {
+    "name": "Thanura Nadun"
+  },
+  "bugs": {
+    "url": "https://github.com/gobzateloon/JSRMI/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "deprecated": false,
   "description": "simple connector for javascript based applications",
-  "main": "index.js",
-  "scripts": {
-    "test": "node test_server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gobzateloon/JSRMI.git"
-  },
+  "homepage": "https://github.com/gobzateloon/JSRMI#readme",
   "keywords": [
     "javascript rmi",
     "js rmi",
     "node rmi",
     "nodejs rmi"
   ],
-  "author": "Thanura Nadun",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gobzateloon/JSRMI/issues"
+  "main": "index.js",
+  "name": "jsrmi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gobzateloon/JSRMI.git"
   },
-  "homepage": "https://github.com/gobzateloon/JSRMI#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1"
-  }
+  "scripts": {
+    "test": "node test_server.js"
+  },
+  "version": "1.0.2"
 }

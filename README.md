@@ -20,7 +20,7 @@ First you have to add the JSRMI to your project
 ```
 Then import it to your project
 ```
- const jsrmi = require('jsrmi');
+ const jsrmi = require('./index');
  const path = require('path');
 ```
 After that, you have to create a folder for controllers and configure it like this

@@ -54,11 +54,11 @@ function jsrmi(name, callback) {
                 if (blobdata)
                     methodname = methodname.replace("_File", "");
                 that[methodname] = new Function("\
-                    var datagg = arguments[0];\
                     var data = new FormData();\
-                    for ( var key in datagg ) {\
-                        data.append(key, datagg[key]['$file']?datagg[key]['$file']:datagg[key]);\
+                    for (var i = 0; i < arguments.length; i++){\
+                        data.append('para_'+i, arguments[i]);\
                     }\
+                    data.append('para_count',arguments.length);\
                     data.append('run','" + methodname + "');\
                     return new Promise(function (resolve,reject){\
                         var callback = function (respdata){\
