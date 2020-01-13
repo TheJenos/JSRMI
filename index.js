@@ -19,6 +19,9 @@ module.exports.route = function (app) {
 	}
 	app.use(bodyParser.urlencoded({ extended: false }));
 	app.all('/jsrmi.min.js', (req, res, next) => {
+		res.sendFile(path.join(__dirname, '/Js/jsrmi.min.js'));
+	});;
+	app.all('/jsrmi.js', (req, res, next) => {
 		res.sendFile(path.join(__dirname, '/Js/jsrmi.js'));
 	});;
 	app.all('/jsrmi', async (req, res, next) => {
